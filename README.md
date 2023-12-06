@@ -19,3 +19,7 @@ Team members:
 
   * link-uri utile: https://docs.google.com/document/d/1pWQS7RUJAA7gc3nVwy0arfaoT0h1M8T5oJUrZpq2LhU/edit?usp=sharing
   * For week 7, we modeled the architecture of the building, specifically the basemement and the ground floor. In each of them, we added furniture, books, and the stairs for going to the balconies of the ground floor and from the basement to the ground floor.
+
+  # Sapt 10
+
+  * docs: https://docs.google.com/document/d/1LJrQ6C-Vm49_j6p8xprCABAxjuDia5uE2UQnEuzNoPY/edit?usp=sharing 
