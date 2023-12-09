@@ -24,5 +24,5 @@ Team members:
 
   * docs: https://docs.google.com/document/d/1LJrQ6C-Vm49_j6p8xprCABAxjuDia5uE2UQnEuzNoPY/edit?usp=sharing
   * Photon setup done
-  * some more modelling done this week (books on shelves, more furniture all around)
+  * some more modelling done this week (books on shelves, sofas and chairs modeled by us and added to the balcony)
   * we disscused some more details about some functionalities of the app
