@@ -23,6 +23,14 @@ Team members:
   # Sapt 10
 
   * docs: https://docs.google.com/document/d/1LJrQ6C-Vm49_j6p8xprCABAxjuDia5uE2UQnEuzNoPY/edit?usp=sharing
-  * Photon setup done
-  * some more modelling done this week (books on shelves, sofas and chairs modeled by us and added to the balcony)
-  * we disscused some more details about some functionalities of the app
+  - [X]  Photon setup done
+  - [X]  some more modelling done this week:
+  
+            *   books on all shelves
+         
+            *   sofas modeled by us
+         
+            *   chairs modeled by us
+
+            *   we edited the columns so that they have less vertices
+   - [X]  we disscused some more details about some functionalities of the app
