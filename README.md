@@ -37,4 +37,4 @@ Team members:
  
    # Sapt 11
 
-  - [X]  Multiplayer done: video prezentare/video Sapt11.mp4
+  - [X]  Multiplayer done: video prezentare/video Sapt11.mp4 (example where 2 players are on the same platform and they can walk, run and jump)
