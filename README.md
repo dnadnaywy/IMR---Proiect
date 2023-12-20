@@ -7,6 +7,8 @@ Team members:
 * Panainte Diana-Teodora<br>
 * Sandu Smaranda
 
+* link with builds and blender: https://drive.google.com/drive/folders/11rOeUFmeJFCLWwq-axtD3foTYpMQsOhv?fbclid=IwAR0u5liEKzgfp_9gkn72aDuMnwvnGETi3b13msmVO7jE2HyRAFKyd8Pgxug
+
   # Lab 5
 
   * link: https://docs.google.com/document/d/1GhaCQ2rmp1qVTvQfbwLvMzgz0mZLfsFyYMHV4h4vdcE/edit?usp=sharing
@@ -38,4 +40,4 @@ Team members:
    # Sapt 11
 
   - [X]  Multiplayer done: video prezentare/video Sapt11.mp4 (example where 2 players are on the same platform and they can walk, run and jump)
-  - [X]  More modelling and started working on textures 
+  - [X]  More modelling and started working on textures
