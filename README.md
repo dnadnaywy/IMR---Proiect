@@ -47,4 +47,6 @@ Team members:
   - [X] Multiplayer - voice setup
   - [X] Multiplayer - set a nickname to your avatar
   - [X] Blender modelling added to unity project
-  - [X] Added some textures
+  - [X] Added textures
+  - [X] VR setup
+  - [ ] in progress - adding hands, other xr details
