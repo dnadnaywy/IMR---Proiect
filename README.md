@@ -41,3 +41,10 @@ Team members:
 
   - [X]  Multiplayer done: video prezentare/video Sapt11.mp4 (example where 2 players are on the same platform and they can walk, run and jump)
   - [X]  More modelling and started working on textures
+ 
+  # Sapt 12
+
+  - [X] Multiplayer - voice setup
+  - [X] Multiplayer - set a nickname to your avatar
+  - [X] Blender modelling added to unity project
+  - [X] Added some textures
