@@ -43,7 +43,7 @@ Team members:
   - [X]  More modelling and started working on textures
  
   # Sapt 12
-
+    Video prezentare/Sapt12.mp4
   - [X] Multiplayer - voice setup
   - [X] Multiplayer - set a nickname to your avatar
   - [X] Blender modelling added to unity project
