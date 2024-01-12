@@ -52,4 +52,4 @@ Team members:
   - [ ] in progress - adding hands, other xr details
 
   # Sapt 13
-  - [X] Add colliders to all objects/walls 
+  - [X] Add colliders to all objects/walls -> example : week13_nr1.png + week13_nr2.png
