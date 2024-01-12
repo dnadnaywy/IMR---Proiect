@@ -49,7 +49,8 @@ Team members:
   - [X] Blender modelling added to unity project
   - [X] Added textures
   - [X] VR setup
-  - [ ] in progress - adding hands, other xr details
 
   # Sapt 13
   - [X] Add colliders to all objects/walls -> example : week13_nr1.png + week13_nr2.png
+  - [X] VR Simulator
+  - [X] Textures
