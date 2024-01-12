@@ -53,4 +53,4 @@ Team members:
   # Sapt 13
   - [X] Add colliders to all objects/walls -> example : week13_nr1.png + week13_nr2.png
   - [X] VR Simulator
-  - [X] Textures -> example : week13_nr3.png + week13_nr4.png
+  - [X] Textures -> example : week13_nr3.png + week13_nr4.png + week13_ground_floors.png
