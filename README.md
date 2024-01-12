@@ -50,3 +50,6 @@ Team members:
   - [X] Added textures
   - [X] VR setup
   - [ ] in progress - adding hands, other xr details
+
+  # Sapt 13
+  - [X] Add colliders to all objects/walls 
