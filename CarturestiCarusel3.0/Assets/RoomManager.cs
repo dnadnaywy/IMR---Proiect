@@ -11,6 +11,8 @@ public class RoomManager : MonoBehaviourPunCallbacks
 
     public GameObject player;
 
+    public GameObject _player;
+
     public Transform spawnPoint;
 
     public InputField playerNickname;
@@ -48,12 +50,12 @@ public class RoomManager : MonoBehaviourPunCallbacks
 
         UnityEngine.Debug.Log("We are connected and in a room!");
 
-        GameObject _player = PhotonNetwork.Instantiate(player.name, spawnPoint.position, Quaternion.identity);
-        _player.GetComponent<PlayerSetup>().IsLocalPlayer();
+        _player = PhotonNetwork.Instantiate(player.name, spawnPoint.position, Quaternion.identity);
     }
 
     public void StartTheGame()
     {
+        _player.GetComponent<PlayerSetup>().IsLocalPlayer();
         PhotonNetwork.NickName = playerNickname.text;
         UnityEngine.Debug.Log("Connecting...");
         PhotonNetwork.ConnectUsingSettings();

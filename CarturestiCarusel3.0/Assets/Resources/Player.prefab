@@ -799,6 +799,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   movement: {fileID: 3650658483734891790}
   camera: {fileID: 8051139363495356153}
+  defaultCamera: {fileID: 1249709778448749915, guid: 3418caa33d6eb70468040f8988ff8bae, type: 3}
 --- !u!135 &3892746664959491873
 SphereCollider:
   m_ObjectHideFlags: 0
