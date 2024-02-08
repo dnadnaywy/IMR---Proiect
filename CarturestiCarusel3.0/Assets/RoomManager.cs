@@ -5,6 +5,7 @@ using UnityEngine.UI;
 using Photon.Pun;
 using System.Diagnostics;
 using System.Security.Cryptography;
+using static System.Net.Mime.MediaTypeNames;
 
 public class RoomManager : MonoBehaviourPunCallbacks
 {
@@ -15,14 +16,24 @@ public class RoomManager : MonoBehaviourPunCallbacks
 
     public Transform spawnPoint;
 
-    public InputField playerNickname;
+    public UnityEngine.UI.Text nicknameText;
 
-    public GameObject nicknameInput;
+    //public InputField playerNickname;
+
+    //public GameObject nicknameInput;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        if (PlayerPrefs.HasKey("PlayerNickname"))
+        {
+            string nickname = PlayerPrefs.GetString("PlayerNickname");
+            nicknameText.text = "Welcome, " + nickname + "!";
+        }
+        else
+        {
+            nicknameText.text = "Welcome, player!";
+        }
     }
 
     public override void OnConnectedToMaster()
@@ -56,9 +67,9 @@ public class RoomManager : MonoBehaviourPunCallbacks
     public void StartTheGame()
     {
         _player.GetComponent<PlayerSetup>().IsLocalPlayer();
-        PhotonNetwork.NickName = playerNickname.text;
+        PhotonNetwork.NickName = nicknameText.text;
         UnityEngine.Debug.Log("Connecting...");
         PhotonNetwork.ConnectUsingSettings();
-        nicknameInput.SetActive(false);
+        //nicknameInput.SetActive(false);
     }
 }
