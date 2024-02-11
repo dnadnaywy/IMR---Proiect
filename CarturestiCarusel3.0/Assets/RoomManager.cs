@@ -16,7 +16,9 @@ public class RoomManager : MonoBehaviourPunCallbacks
 
     public Transform spawnPoint;
 
-    public UnityEngine.UI.Text nicknameText;
+    private string nickname;
+
+    //public UnityEngine.UI.Text nicknameText;
 
     //public InputField playerNickname;
 
@@ -27,12 +29,13 @@ public class RoomManager : MonoBehaviourPunCallbacks
     {
         if (PlayerPrefs.HasKey("PlayerNickname"))
         {
-            string nickname = PlayerPrefs.GetString("PlayerNickname");
-            nicknameText.text = "Welcome, " + nickname + "!";
+            nickname = PlayerPrefs.GetString("PlayerNickname");
+            //nicknameText.text = "Welcome, " + nickname + "!";
         }
         else
         {
-            nicknameText.text = "Welcome, player!";
+            //nicknameText.text = "Welcome, player!";
+            nickname = "player";
         }
     }
 
@@ -67,7 +70,8 @@ public class RoomManager : MonoBehaviourPunCallbacks
     public void StartTheGame()
     {
         _player.GetComponent<PlayerSetup>().IsLocalPlayer();
-        PhotonNetwork.NickName = nicknameText.text;
+        //PhotonNetwork.NickName = nicknameText.text;
+        PhotonNetwork.NickName = nickname; 
         UnityEngine.Debug.Log("Connecting...");
         PhotonNetwork.ConnectUsingSettings();
         //nicknameInput.SetActive(false);

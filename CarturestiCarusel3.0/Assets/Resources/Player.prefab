@@ -585,7 +585,6 @@ GameObject:
   - component: {fileID: 7568484456665298048}
   - component: {fileID: 8693668996967168575}
   - component: {fileID: 1832197770370128722}
-  - component: {fileID: 3892746664959491873}
   - component: {fileID: 3319629388302949514}
   m_Layer: 0
   m_Name: Player
@@ -799,28 +798,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   movement: {fileID: 3650658483734891790}
   camera: {fileID: 8051139363495356153}
-  defaultCamera: {fileID: 1249709778448749915, guid: 3418caa33d6eb70468040f8988ff8bae, type: 3}
---- !u!135 &3892746664959491873
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4851770559144312299}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Radius: 0.49503404
-  m_Center: {x: 0, y: -0.7, z: 0}
 --- !u!114 &3319629388302949514
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1172,7 +1149,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8051139363495356153}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7fdd0a6b32680e44b84a22c60b4266ca, type: 3}
   m_Name: 
